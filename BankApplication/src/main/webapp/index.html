@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style >
+span{
+color: red;
+}
+h1{
+    text-align: center;
+   color: red;
+}
+.newuser{
+    margin-left: 5px;
+    margin-bottom: 15px;
+}
+</style>
+
+
+<title>Apna Bank</title>
+
+</head>
+
+<body bgcolor="pink"   style="text-align:center">
+
+
+   <form action="log" style="text-align:center" >
+
+    <h1>Welcome to Apna Bank</h1> <br>
+    
+    Accno <span >*</span>:<input type="text" name="an"  placeholder="Enter Your Account no"> <br>
+
+    Username <span >*</span>:<input type="text" name="un" placeholder="Enter Your Username"> <br>
+
+    Password<span>*</span>:<input type="password" name="pw" placeholder="Enter Your Password"> <br>
+  
+   <button type="submit" class="">Login</button><br>
+</form>
+
+ <div class="newuser">
+ 
+   New User:<button type="submit"   class=""  onclick="reg()">Register</button>
+</div>
+
+<script >
+
+function reg(){
+	
+	window.location.href="Register.html";
+}
+
+</script>
+
+
+</body>
+</html>
